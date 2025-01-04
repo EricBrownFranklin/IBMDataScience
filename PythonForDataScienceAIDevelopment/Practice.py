@@ -77,5 +77,33 @@
 
 # print(cleaned_text)  # Output: "Hello world Hows it going"
 
-for i, x in enumerate(['A', 'B', 'C']): 
-    print(i, 2 * x)
+# for i, x in enumerate(['A', 'B', 'C']): 
+#     print(i, 2 * x)
+
+import numpy as np
+
+# arr1 = np.array([10, 11, 12, 13, 14, 15])
+# arr2 = np.array([20, 21, 22, 23, 24, 25])
+
+# arr3 = np.prod(arr1,arr2)
+# print(arr3)
+# np.linspace(5,4,num=6)
+
+# X=np.array([[1,0,1],[2,2,2]]) 
+# print(X)
+# out=X[0:2,2]
+# print(out)
+
+# X=np.array([[1,0],[0,1]])
+# Y=np.array([[2,2],[2,2]]) 
+# Z=np.dot(X,Y) 
+# print(Z)
+
+# with open("Example1.txt","r") as file1: 
+#      file_stuff=file1.readline() 
+
+# print(file_stuff) 
+
+a=np.array([-1,1]) 
+b=np.array([1,1]) 
+print(np.dot(a,b) )
